@@ -70,6 +70,10 @@ Guthaben pro 1M Tokens. Für den Barpreis durch den aktuellen Aufladekurs teilen
 
 Von den 12 Bezahlmodellen tragen 11 einen von uns verifizierten und zitierten Anbieterpreis — der Vergleich ist nachprüfbar, nicht behauptet.
 
+## Ebenfalls in diesem Account
+
+**[y-api-price-tracker](https://github.com/zhuo01-l2ab/y-api-price-tracker)** — ein Skript ohne Abhängigkeiten, das die veröffentlichte Preisdatei als Barpreis-Tabelle rendert, wöchentlich von CI aktualisiert. Es rechnet `credit_price / top_up.quota_rate` nach, statt `cash_price` zu kopieren, und scheitert laut, wenn beides abweicht. Wer Preisänderungen lieber als maschinenlesbares Diff will statt als gerenderte Seite, fängt dort an.
+
 ---
 
 *Die Angaben auf dieser Seite stammen aus `public/models.json` und `public/pricing.json` (Stand 2026-09-17, geprüft am 2026-09-18). Preise ändern sich; die JSON-Links oben sind die live-Quelle.*
