@@ -70,6 +70,10 @@ const client = new OpenAI({ baseURL: "https://api.y-api.bestvirtualgoods.com/v1"
 
 유료 모델 12개 중 11개에는 검증하고 출처를 명시한 벤더 공식 가격이 붙어 있습니다. 이 비교는 주장이 아니라 검증 가능한 수치입니다.
 
+## 이 계정의 다른 저장소
+
+**[y-api-price-tracker](https://github.com/zhuo01-l2ab/y-api-price-tracker)** — 의존성 없는 스크립트로 공개 가격 파일을 현금 가격 표로 렌더링하고, CI가 매주 갱신합니다. `cash_price`를 복사하지 않고 `credit_price / top_up.quota_rate`를 다시 계산하며, 둘이 다르면 즉시 실패합니다. 렌더링된 페이지가 아니라 diff로 읽히는 가격 변동 기록이 필요하다면 여기서 시작하세요.
+
 ---
 
 *이 페이지의 사실은 `public/models.json`과 `public/pricing.json`(스냅샷 2026-09-17, 확인 2026-09-18)에서 읽은 것입니다. 가격은 변동됩니다. 위 JSON 링크가 실시간 출처입니다.*
