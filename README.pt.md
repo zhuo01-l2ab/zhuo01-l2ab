@@ -70,6 +70,10 @@ Crédito por 1M de tokens. Divida pela taxa de recarga atual para obter o preço
 
 Dos 12 modelos pagos, 11 trazem um preço oficial de fornecedor que verificamos e citamos — a comparação é verificável, não afirmada.
 
+## Também nesta conta
+
+**[y-api-price-tracker](https://github.com/zhuo01-l2ab/y-api-price-tracker)** — um script sem dependências que transforma o arquivo de preços publicado em uma tabela de preços em dinheiro, atualizada semanalmente pelo CI. Ele recalcula `credit_price / top_up.quota_rate` em vez de copiar `cash_price`, e falha alto se os dois divergirem. Se você quer as mudanças de preço como um diff legível por máquina, e não como uma página renderizada, comece por lá.
+
 ---
 
 *Os dados desta página foram lidos de `public/models.json` e `public/pricing.json` (instantâneo 2026-09-17, conferido em 2026-09-18). Os preços mudam; os links JSON acima são a fonte viva.*
