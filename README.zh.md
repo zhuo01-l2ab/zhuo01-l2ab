@@ -70,6 +70,10 @@ const client = new OpenAI({ baseURL: "https://api.y-api.bestvirtualgoods.com/v1"
 
 12 个付费模型中有 11 个带我们核实并标注出处的厂商官方价——这个对比是可复核的，不是自说自话。
 
+## 这个账号还有
+
+**[y-api-price-tracker](https://github.com/zhuo01-l2ab/y-api-price-tracker)** —— 一个零依赖脚本，把公开的价格文件渲染成现金价表，每周由 CI 刷新。它重算 `credit_price / top_up.quota_rate` 而不是照抄 `cash_price`，两者不一致就直接报错退出。如果你要的是能 diff 的价格变动记录而不是一张渲染好的页面，从那里开始。
+
 ---
 
 *本页事实读自 `public/models.json` 与 `public/pricing.json`（快照 2026-09-17，核对于 2026-09-18）。价格会变，上面的 JSON 链接是实时来源。*
