@@ -70,6 +70,10 @@ const client = new OpenAI({ baseURL: "https://api.y-api.bestvirtualgoods.com/v1"
 
 有料 12 モデルのうち 11 モデルには、検証して出典を明記したベンダー公式価格が付いています。この比較は主張ではなく検証可能なものです。
 
+## このアカウントの別リポジトリ
+
+**[y-api-price-tracker](https://github.com/zhuo01-l2ab/y-api-price-tracker)** — 依存なしのスクリプトで、公開価格ファイルを現金価格の表に描画し、CI が毎週更新します。`cash_price` を写さず `credit_price / top_up.quota_rate` を再計算し、食い違えばその場で失敗します。レンダリング済みのページではなく、差分として読める価格変動の記録が欲しい場合はこちらから。
+
 ---
 
 *本ページの記述は `public/models.json` と `public/pricing.json`（スナップショット 2026-09-17、確認日 2026-09-18）から読み出したものです。価格は変動します。上記の JSON リンクが最新の情報源です。*
