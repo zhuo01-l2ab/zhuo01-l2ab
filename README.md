@@ -70,6 +70,10 @@ Credit per 1M tokens. Divide by the current top-up rate for the cash price. Live
 
 Of the 12 paid models, 11 carry a vendor list price we verified and cited — the comparison is checkable rather than asserted.
 
+## Also in this account
+
+**[y-api-price-tracker](https://github.com/zhuo01-l2ab/y-api-price-tracker)** — a dependency-free script that renders the published price file as a cash-price table, refreshed weekly by CI. It recomputes `credit_price / top_up.quota_rate` rather than copying `cash_price`, and fails loudly if the two disagree. If you want price changes as a machine-readable diff instead of a rendered page, start there.
+
 ---
 
 *Facts on this page were read from `public/models.json` and `public/pricing.json` (snapshot 2026-09-17, checked 2026-09-18). Prices move; the JSON links above are the live source.*
